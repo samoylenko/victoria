@@ -1,0 +1,17 @@
+makefile : victoria.exe
+  @echo Done.
+
+victoria.exe : victoria.obj graphics.obj misc.obj memory.obj
+  wlink.exe sys pmodew f victoria.obj, graphics.obj, misc.obj, memory.obj, timerasm.obj, timer.obj l judas.lib
+
+victoria.obj : victoria.c graphics.h memory.h misc.h
+  wcc386.exe victoria.c -3r -fpi87 -fp5 -d2
+
+graphics.obj : graphics.asm
+  nasm -f obj graphics.asm
+
+misc.obj : misc.asm victoria.fnt victoria.txt
+  nasm -f obj misc.asm
+
+memory.obj: memory.asm
+  nasm -f obj memory.asm
