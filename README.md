@@ -1,9 +1,10 @@
-2000 - Victoria Intro (DOS)
+2000 - Victoria Intro (DOS)  
+Music by Andry Chuyko
 
-Screenshot:
+Screenshot:  
 ![Screenshot](/_screenshots/1.png)
 
-file_id.diz:
+file_id.diz:  
 ```
     victoria intro
   coded by powermike
