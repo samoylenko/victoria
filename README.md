@@ -1,5 +1,5 @@
 2000 - Victoria Intro (DOS)  
-Music by Andry Chuyko
+Music by Andriy Chuyko
 
 Screenshot:  
 ![Screenshot](/_screenshots/1.png)
